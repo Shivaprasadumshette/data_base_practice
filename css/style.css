@@ -1,0 +1,41 @@
+body {
+    background-color: aquamarine;
+}
+
+input {
+    position: relative;
+    left: 50%;
+}
+
+label {
+    position: relative;
+    left: 50%;
+}
+
+p {
+    position: relative;
+    left: 60%;
+}
+
+h1 {
+    color: white;
+    padding: 70px;
+}
+
+button {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+}
